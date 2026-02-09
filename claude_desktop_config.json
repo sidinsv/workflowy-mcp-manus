@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "workflowy": {
+      "command": "node",
+      "args": ["/absolute/path/to/workflowy-mcp/dist/index.js"],
+      "env": {
+        "WORKFLOWY_API_KEY": "your_workflowy_api_key_here"
+      }
+    }
+  }
+}
