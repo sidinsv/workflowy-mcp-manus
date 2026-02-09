@@ -1,8 +1,27 @@
 {
-  "name": "workflowy-mcp",
+  "name": "WorkFlowy MCP Server",
   "version": "1.0.0",
   "description": "Production-ready MCP server for WorkFlowy with advanced search, caching, and bookmark management",
+  "author": "Manus AI",
+  "homepage": "https://github.com/sidinsv/workflowy-mcp-manus",
+  "license": "MIT",
   "capabilities": {
-    "tools": {}
+    "tools": true,
+    "resources": false,
+    "prompts": false
+  },
+  "config": {
+    "parameters": [
+      {
+        "name": "apiKey",
+        "type": "string",
+        "required": true,
+        "description": "Your WorkFlowy API key from beta.workflowy.com/api-reference/",
+        "secure": true
+      }
+    ]
+  },
+  "endpoints": {
+    "mcp": "/api/mcp"
   }
 }
