@@ -1,0 +1,8 @@
+{
+  "name": "workflowy-mcp",
+  "version": "1.0.0",
+  "description": "Production-ready MCP server for WorkFlowy with advanced search, caching, and bookmark management",
+  "capabilities": {
+    "tools": {}
+  }
+}
